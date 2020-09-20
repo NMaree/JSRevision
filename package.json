@@ -1,0 +1,19 @@
+{
+  "name": "04-project-js-refresher",
+  "author": "Developers Institute",
+  "license": "SEE LICENCE IN LICENCE.md",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "ava **/*.test.js",
+    "test:watch": "ava --watch **/*.test.js",
+    "doc": "documentation readme submission/submission.js --section=functions",
+    "doc:serve": "documentation serve --watch submission/submission.js"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0"
+  },
+  "dependencies": {
+    "ava": "^3.11.1",
+    "documentation": "^13.0.2"
+  }
+}
